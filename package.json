@@ -1,0 +1,14 @@
+{
+  "name": "insurance-knowledge-base",
+  "version": "1.0.0",
+  "private": true,
+  "description": "保险知识库 - Insurance Knowledge Base",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}
