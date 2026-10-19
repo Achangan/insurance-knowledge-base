@@ -12,9 +12,16 @@ export default defineConfig({
       { text: '险种介绍', link: '/guide/life-insurance' },
       { text: '核保与理赔', link: '/guide/underwriting' },
       { text: '配置与选购', link: '/guide/planning-methodology' },
-      { text: '监管与动态', link: '/guide/regulatory-trends-2025' }
+      { text: '监管与动态', link: '/guide/regulatory-trends-2025' },
+      { text: '学习日志', link: '/daily/2026-10-19' }
     ],
     sidebar: [
+      {
+        text: '每日学习日志',
+        items: [
+          { text: '2026-10-19', link: '/daily/2026-10-19' }
+        ]
+      },
       {
         text: '保险基础',
         items: [
