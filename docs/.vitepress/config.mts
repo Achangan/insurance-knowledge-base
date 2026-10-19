@@ -11,7 +11,8 @@ export default defineConfig({
       { text: '保险基础', link: '/guide/basics' },
       { text: '险种介绍', link: '/guide/life-insurance' },
       { text: '核保与理赔', link: '/guide/underwriting' },
-      { text: '法律法规', link: '/guide/regulations' }
+      { text: '配置与选购', link: '/guide/planning-methodology' },
+      { text: '监管与动态', link: '/guide/regulatory-trends-2025' }
     ],
     sidebar: [
       {
@@ -38,9 +39,19 @@ export default defineConfig({
         ]
       },
       {
-        text: '法律法规',
+        text: '配置与选购',
         items: [
-          { text: '保险法与监管', link: '/guide/regulations' }
+          { text: '保险配置方法论', link: '/guide/planning-methodology' },
+          { text: '网红保险产品拆解', link: '/guide/popular-products' }
+        ]
+      },
+      {
+        text: '监管与动态',
+        items: [
+          { text: '保险法与监管', link: '/guide/regulations' },
+          { text: '保险监管新动向（2025—2026）', link: '/guide/regulatory-trends-2025' },
+          { text: '保险与税务', link: '/guide/insurance-taxation' },
+          { text: '保险公司偿付能力与监管', link: '/guide/solvency-regulation' }
         ]
       }
     ],
